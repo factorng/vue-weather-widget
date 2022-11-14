@@ -1,24 +1,12 @@
-# vue
+# The widget that displays the weather in the specified cities
 
-## Project setup
-```
-yarn install
-```
+## Technologies
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Vue.js, ES7 and Babel, SCSS, Webpack
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### Features
 
-### Lints and fixes files
-```
-yarn lint
-```
+- cities search field with hints
+- cities drag and drop reorder
+- remove city by clicking delete button
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
