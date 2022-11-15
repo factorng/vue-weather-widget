@@ -1,11 +1,12 @@
 {
   "name": "vue",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist",
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -19,9 +20,14 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "chalk": "^4.0.0",
     "dotenv-webpack": "^8.0.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "execa": "^4.0.0",
+    "gh-pages": "4.0.0",
+    "node-emoji": "^1.10.0",
+    "vue-cli-plugin-gh-pages-auto-deploy": "~0.5.0"
   },
   "eslintConfig": {
     "root": true,
@@ -42,5 +48,6 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "homepage": "/"
 }

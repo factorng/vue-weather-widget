@@ -9,7 +9,12 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: "/", name: "Main", component: Main, props: true },
-    { path: "/settings", name: "Settings", component: Settings, props: true },
+    {
+      path: "/vue-weather-widget/settings",
+      name: "Settings",
+      component: Settings,
+      props: true,
+    },
   ],
 });
 
