@@ -6,7 +6,7 @@ import Settings from "./components/Settings";
 import Main from "./components/Main";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createMemoryHistory(),
   routes: [
     { path: "/", name: "Main", component: Main, props: true },
     {
