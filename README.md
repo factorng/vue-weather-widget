@@ -7,6 +7,9 @@ Vue.js, ES7 and Babel, SCSS, Webpack
 ### Features
 
 - cities search field with hints
-- cities drag and drop reorder
+- cities can be reordered by drag and drop
 - remove city by clicking delete button
 
+### Working example
+
+[https://factorng.github.io/vue-weather-widget/](https://factorng.github.io/vue-weather-widget/)

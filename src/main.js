@@ -1,12 +1,12 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createMemoryHistory } from "vue-router";
 
 import Settings from "./components/Settings";
 import Main from "./components/Main";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createMemoryHistory(),
   routes: [
     { path: "/", name: "Main", component: Main, props: true },
     {
